@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Beginner Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO MY WEB PAGE</h1>
+            <nav aria-label="Main Navigation"> <!--This nav uses an ARIA label to help screen readers identify this section as the main navigation menu -->
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page was created as a beginner HTML5 project to practice semantic structure, accessibility, and SEO.</p>
+      <img src="student learning html.jpg" alt="Student learning HTML on a laptop" width="300" />
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Articles</h2>
+
+      <article>
+        <h3>Why Semantic HTML Matters</h3>
+        <p>Semantic tags like "&lt;section&gt;", "&lt;article&gt;", and "&lt;nav&gt;" make your pages easier to read by both users and search engines.</p>
+      </article>
+
+      <article>
+        <h3>Beginner Accessibility Tips</h3>
+        <p>Always use headings in the right order, add alternative text to images, and label navigation menus for screen readers.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <p>If you want to say hi or ask a question, send me an email!</p>
+      <a href="mailto:dorisnyame06@gmail.com">dorisnyame06@gmail.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Beginner Web Page</p>
+  </footer>
+
+</body>
+</html>
